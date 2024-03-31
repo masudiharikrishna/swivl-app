@@ -1,0 +1,123 @@
+.Login-page{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: white;
+    height: 100vh;
+    background-size: cover;
+}
+.board-section{
+    background-color: black;
+    width: 35vw;
+    height: 100vh;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+}
+.logo{
+    width: 15px;
+    margin-right: 10px;
+}
+.logo-apple{
+    width: 25px;
+    margin-right: 10px;
+}
+.sign-part{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+.sign-in-google{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    border-radius: 10px;
+    height: 30px;
+    width: 180px;
+    margin: 20px 0px 20px 0px;
+    color: rgb(178, 179, 179);
+}
+.sign-in-item{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    width: 29vw;
+}
+.sign-in-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 75vw;
+    background-color: rgb(233, 234, 234);
+    height: 100vh;
+}
+.sign-in-section h1 {
+    margin: 0px;
+    padding: 0px;
+}
+.sign-in-section h4{
+    margin-top: 5px;
+    padding: 0px;
+}
+.login-part{
+    background-color: white;
+    padding: 20px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: flex-start;
+    width: 25vw;
+}
+.login-part p{
+    color: blue;
+    cursor: pointer;
+}
+.login-part button{
+    height: 40px;
+    width: 100%;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    outline: none;
+    border: 0px;
+    border-radius: 10px;
+    font-size: 17px;
+    font-weight: bold;
+}
+.register{
+    color: blue;
+    cursor: pointer;
+}
+.mail-input{
+    height: 20px;
+    border: 0px;
+    background-color: rgb(236, 243, 243);
+    border-radius: 10px;
+    margin: 10px 0px 10px 0px;
+    outline: none;
+    padding: 10px;
+    font-size: 20px;
+}
+.password-input{
+    height: 20px;
+    border: 0px;
+    background-color: rgb(221, 224, 224);
+    border-radius: 10px;
+    margin: 10px 0px 10px 0px;
+    outline: none;
+    padding: 10px;
+    font-size: 20px;
+}
