@@ -1,0 +1,201 @@
+.homepage{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    background-color: #f5f5f5;
+    height: 120%;
+    background-size: cover;
+}
+.dashboard{
+    background-color: black;
+    width: 280px;
+    height: 130vh;
+    top: 40px;
+    left: 40px;
+    gap: 0px;
+    opacity: 0px;
+    margin: 10px 30px 10px 30px;
+    border-radius: 30px;
+    color: white;
+    padding: 20px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+.dashboard-list{
+    list-style-type: none;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+    padding: 0px;
+    margin-top: -100px;
+}
+.list-item{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    margin: 0px;
+    padding: 5px;
+    height: 50px;
+    cursor: pointer;
+}
+.list-item p {
+    margin-left: 10px;
+    font-size: 20px;
+    font-weight: 400;
+}
+.help-section{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+.charts-section{
+    width: 100%;
+}
+.nav-bar{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+    height: 100px;
+}
+.icon{
+    margin: 0px;
+    padding: 0px;
+    margin-bottom: -8px;
+}
+.search-input{
+    width: 250px;
+    height: 30px;
+    border: 0px;
+    border-radius: 10px;
+    margin-right: 20px;
+}
+.total-list-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    margin-left: -50px;
+}
+.charts{
+    padding: 20px;
+    box-sizing: border-box;
+    border-radius: 20px;
+}
+.revenue-list-item{
+    background: #DDEFE0;
+    width: 221.05px;
+    height: 120px;
+    gap: 0px;
+    border-radius: 20px;
+    opacity: 0px;
+    box-sizing: border-box;
+    padding: 15px;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+.transcation{
+    background: #F4ECDD;
+}
+.likes{
+    background: #EFDADA;
+}
+.users{
+    background: #DEE0EF;
+
+}
+.list-icon{
+    align-self: flex-end;
+}
+.revenue-list-item p{
+    margin: 0px;
+    padding: 0px;
+    font-size: 12px;
+}
+.chart-container{
+    width: 50%;
+    border-radius: 20px;
+}
+.revenue-list-item h3{
+    margin: 0px;
+    padding: 2px;
+    font-size: 25px;
+}
+.last-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+}
+.meeting-schedule-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    background-color: white;
+    border-radius: 20px;
+    padding: 20px;
+    width: 40%;
+}
+.schedule-heading{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+.schedule-heading h1{
+    margin: 0px;
+    padding: 0px;
+}
+.meeting-list{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    border: 5px solid #9BDD7C;
+    border-top: none;
+    border-right: none;
+    border-bottom: none;
+    margin-bottom: 10px;
+}
+.meeting-list2{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    border: 5px solid #6972C3;
+    border-top: none;
+    border-right: none;
+    border-bottom: none;
+    margin-bottom: 10px;
+}
+.meeting-list p, h3{
+    margin: 2px;
+    padding: 2px;
+}
+.meeting-list2 p, h3{
+    margin: 2px;
+    padding: 2px;
+}
+@media (max-width: 768px) {
+    .last-container{
+        flex-direction: column;
+    }
+}
