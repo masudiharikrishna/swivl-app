@@ -141,7 +141,7 @@ class Homepage extends React.Component {
               <div className="meeting-schedule-container">
                 <div className="schedule-heading">
                   <h1>Today's schedule</h1>
-                  <p>See All ></p>
+                  <p>See All > </p>
                 </div>
                 <div className="meeting-list">
                   <h3>Meeting with suppliers from Kuta Bali</h3>
